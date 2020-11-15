@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>$Title$</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="validation.css">
+
+</head>
+<body>
+
+    <div class="container w-50">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="weight">Weight (lbs)</label>
+                            <input name="weight" class="form-control" type="number" id="weight" name="bmi">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="height">Height (in.)</label>
+                            <input name="height" class="form-control" type="number" id="height" name="bmi">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-primary" type="submit" name="bmi">Click here to see your BMI</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+        <div>
+            <p id="output"></p>
+            <p id="category"></p>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+<script src="js/main.js"></script>
+
+</html>
